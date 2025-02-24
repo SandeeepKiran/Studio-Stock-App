@@ -13,6 +13,12 @@ class CounterApp:
         self.master = master
         master.title("Sand's Counter App")  # Set the window title
 
+        # Window Titlebar App icon
+        try:
+            root.iconbitmap("C:/Users/sande/Music/Myp/App_Icons/Counter_App.ico")  # This may work for some systems
+        except:
+            pass
+
         # --- Styling ---
         bg_color = "white"  # Background color
         fg_color = "black"  # Foreground color (text color)
